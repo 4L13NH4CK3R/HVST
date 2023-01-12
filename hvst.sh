@@ -77,7 +77,8 @@ sleep 30
 clear
 mainmenu
 ;;
-1) echo "Let's Test for XST Vulnerabilites against our target!"
+1) clear
+echo "Let's Test for XST Vulnerabilites against our target!"
 echo
 echo "What is our target?"
 read xstTarget
@@ -87,7 +88,8 @@ sleep 7
 clear
 mainmenu
 ;;
-2) echo "Lets Ping our target to see if they are alive!"
+2) clear
+echo "Lets Ping our target to see if they are alive!"
 echo "What is our Target $username?"
 read pingTarget
 ping -c 4 $pingTarget
@@ -96,7 +98,8 @@ echo "This concludes our Ping request $username!"
 clear
 mainmenu
 ;;
-3) echo "Let's test our target for open ports!"  
+3) clear
+echo "Let's test our target for open ports!"  
 echo
 echo "Please Note: This will scan for EVERYTHING!"
 sleep 2
@@ -108,7 +111,8 @@ sleep 7
 clear
 mainmenu
 ;;
-4) echo "Let's get you some nice tools $username!"  
+4) clear
+echo "Let's get you some nice tools $username!"  
 echo "Feature coming soon!"
 clear
 mainmenu
@@ -122,7 +126,7 @@ echo "I see. So you are trying to hunt for bugs on $niktoTarget?"
 sleep 1
 echo
 echo "Let's scan that target for you shall we! I will start Nikto now;"
-nikto -h $niktoTarget
+nikto -C all -h $niktoTarget 
 echo "I will leave this up for you for a total of 5 seconds. If you need to copy this information, please do so now."
 sleep 5
 clear
