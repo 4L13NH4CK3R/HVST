@@ -5,6 +5,20 @@ He created this Bash script to create a simple user interface that will allow yo
 While this is still in beta-development stages, CryptoH4ck3r is aiming that this will help a lot of young hackers out there understand some of the tools utilized  
 in hacking & penetration testing.  
   
+## Setting Up HVST  
+We are all excited to get this tool, especially when you realize how easy it is to use! So let's get started on getting you setup to use this amazing tool!  
+Here are the steps to take;  
+```
+$ git clone https://github.com/CryptoH4ck3r/HVST  
+  
+$ cd /HVST  
+  
+$ sudo chown -R 777 hvst.sh  
+  
+$ ./hvst.sh
+```
+And **BOOM** you are able to hack like a pro and just type in URL's or IP Address! See how easy this program will work for you!  
+  
 ## Rules & Policies
 ***PLEASE NOTE:*** *I, CryptoH4ck3r, am not responsible for any actions you do with this tool. The intended us of this tool is for security researches performing _Bug Bounty Programs_, _Server Administraton_, and _Educational Purposes_ only.*  
 Any action you take with this tool will be strictly on you and I hold 0 (ZERO) accountablity for your actions!  
