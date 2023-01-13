@@ -281,17 +281,13 @@ mainmenu
 11) clear
 echo "Alrighty then! Let's get you that PHP Reverse Shell Script!"
 echo 
-echo "I will download the script to /tmp/ Directory! Better save it before restarting your PC!"
+echo "The PHP Reverse Shell Script will be saved directly to this folder!"
 echo "I will first test & see if we have git by trying to install it. You may need to use your password!"
 sudo apt-get install -y git
 sleep 2
 clear
 echo "Git is good to go!"
 sleep 2
-
-cd ~/tmp/
-sleep 2
-
 git clone https://github.com/pentestmonkey/php-reverse-shell.git
 sleep 2
 clear
